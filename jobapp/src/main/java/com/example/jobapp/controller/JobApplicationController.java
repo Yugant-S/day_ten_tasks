@@ -36,7 +36,6 @@ public class JobApplicationController {
             Application application = jobService.applyToJob(requestDto);
             return new ResponseEntity<>(application, HttpStatus.CREATED);
         } catch (RuntimeException e) {
-            // Handles the duplicate application exception gracefully
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
         }
     }

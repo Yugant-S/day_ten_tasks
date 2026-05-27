@@ -11,6 +11,7 @@
       <list>
         <option value="$PROJECT_DIR$/studentrest/pom.xml" />
         <option value="$PROJECT_DIR$/jobapp/pom.xml" />
+        <option value="$PROJECT_DIR$/secureloginapi/pom.xml" />
       </list>
     </option>
   </component>
